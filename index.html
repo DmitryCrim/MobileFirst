@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="./img/slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./img/slick-1.8.1/slick/slick-theme.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300&display=swap"
+        rel="stylesheet">
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./img/slick-1.8.1/slick/slick.min.js"></script>
+    <title>Test</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo"><img src="/assets/img/Logo.png" alt=""></a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home.</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Us.</a></li>
+                    <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio.</a></li>
+                    <li class="nav__item"><a href="#blog" class="nav__link">Blog.</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact Us.</a></li>
+                </ul>
+            </div>
+
+            <select name="" id="input0" required="required">
+                <option   value="eng">EN</option>
+                <option   value="rus">RU</option>
+            </select>
+
+            <div class="header_btn">
+                <button class="header_btn">Contact Us.</button>                
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <h1 class="home__title"><p>The Spirit of </p>
+                       <p class="digital">Digital Agency.</p> </h1>
+
+                <p class="text__company">Vestibulum ac diam sit amet quam vehicula elementum amet<br> est on dui. Nulla
+                    porttitor accumsan
+                    tincidunt.</p>
+                <div class="group_btn">
+                    <button class="button button1">More About Us</button>
+                    <button class="button button2">Get In Touch.</button>
+
+                </div>
+
+                <div class="single-slide home__img">
+                    <div><img src="./assets/img/Vector Illustra.png" alt="company_img"></div>
+                    <div><img src="./assets/img/junior.png" alt="company_img"></div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== PORTFOLIO =====-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section-title bd-grid">See some of our</br> Creative work</h2>
+
+            <div class="portfolio__container bd-grid">
+                <div class="portfolio__img">
+                    <img src="assets/img/work1.jpg" alt="">
+                    <div class="portfolio__link">
+                        <a href="#" class="portfolio__link-name">View details</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <img src="assets/img/work1.jpg" alt="">
+                    <div class="portfolio__link">
+                        <a href="#" class="portfolio__link-name">View details</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <img src="assets/img/work1.jpg" alt="">
+
+                    <div class="portfolio__link">
+                        <a href="#" class="portfolio__link-name">View details</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <img src="assets/img/work1.jpg" alt="">
+                    <div class="portfolio__link">
+                        <a href="#" class="portfolio__link-name">View details</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <img src="assets/img/work1.jpg" alt="">
+
+                    <div class="portfolio__link">
+                        <a href="#" class="portfolio__link-name">View details</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <img src="assets/img/work1.jpg" alt="">
+
+                    <div class="portfolio__link">
+                        <a href="#" class="portfolio__link-name">View details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="more_work_text"><a href="#">See more of These</a></div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <p class="text_contact bd-grid">Contact Us</p>
+            <h2 class="section-title bd-grid">Get In Touch</h2>
+            <div class="contact__container bd-grid">
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">e-mail</h3>
+                    <span class="contact__text">info.mail.com</span>
+                    <h3 class="contact__subtitle">PHONE</h3>
+                    <span class="contact__text">+66 666-666</span>
+                    <h3 class="contact__subtitle">Adress</h3>
+                    <span class="contact__text">My contry</span>
+                </div>
+                <form action="" class="contact__form">
+                    <div class="contact__inputs">
+                        <input type="text" placeholder="Your e-mail" class="contact__input">
+                        <input type="mail" placeholder="Subject" class="contact__input">
+                    </div>
+
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"
+                        placeholder="Message here..."></textarea>
+                    <input type="submit" value="Send message" class="contact__button">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <div class="footer__data">
+                <h2 class="footer__title">DOOB</h2>
+                <div class="footer__text">CREATIVE ABOVE</div>
+            </div>
+            <div class="footer__data">
+                <ul class="footer__data-link">
+                    <li><a href="#home" class="footer__link">Home.</a></li>
+                    <li><a href="#about" class="footer__link">About Us.</a></li>
+                    <li><a href="#skills" class="footer__link">Portfolio.</a></li>
+                    <li><a href="#portfolio" class="footer__link">Blog.</a></li>
+                    <li><a href="#Contact" class="footer__link">Contact Us.</a></li>
+                </ul>
+            </div>
+            <p>© 2019 - Doob,All Right Reserved</p>
+            <div class="footer__data">
+                <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
