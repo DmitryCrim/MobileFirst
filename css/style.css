@@ -158,8 +158,8 @@ img {
     position: relative;
     color: var(--dark-color);    
 }
-.nav__link:hover {
-    color: #314584;   
+.nav__item a:hover {
+    color: var(--first-color);   
 }
 
 .nav__toggle { 
